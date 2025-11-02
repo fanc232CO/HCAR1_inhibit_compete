@@ -1,0 +1,5 @@
+Step 1. Build a conda environment with pandas, numpy, scipy and cmapPy. "cmapPy_env" for example.
+        There's a tip that, you sould build the conda environment by installing h5py first, and then cmapPy can be easily installed.
+Step 2. Switch to the cmapPy_env, and run the script of "compare_gene_expr.py", you'll got the output file named "gene_expr_cos_simi.txt"
+Step 3. In Bash command, run "sort -k2,2gr gene_expr_cos_simi.txt|grep 'BRD'|head -n 100|cut -d ':' -f 2|cut -d '-' -f 1,2 > active_top100_BRD.list". 
+This part completed.
