@@ -1,0 +1,7 @@
+This module aims to extract potential HCAR1 inhibitors from the fingerprint comparison results. We just set the cutoff as >0.8. 
+Step 1. Switch to any conda environment where pandans is installed.
+#Step 2. Check the script of "get_top_smi.sh", Line 5, change "fn1_tani" to your path of saving the fingerprint comparison results,
+#        and change "fn1_smi" to your path of "split_**.csv" in the dictionary of "Computational_Compound_Library".
+Step 3. Check the script of "get_score_smi.py", Line 3, change "dir_tani" to your path of saving the fingerprint comparison results,
+        and change "dir_meta" to your path of "Computational_Compound_Library".
+Step 4. Run the script of "get_score_smi.py".
