@@ -1,4 +1,11 @@
-Below we list out the preparation needed for code running
+Updated in 25-11-02
+This pipline is for the "2025上海国际计算生物学创新大赛" (https://www.ibiws.com/2025/SICBC)
+
+My design is a virtual screening of small molecules based on the "bio-profile" (differential expression of one gene set) similarity, between the profile perturbed by HCAR1 inhibtion, and that perturbed by small-molecule compounds.
+
+
+
+Below we've listed out the preparation needed for code running
 1. database to download:
 	In SigCom LINCS database (https://maayanlab.cloud/sigcom-lincs/#/Download), you need to download two dataset:
 	(1) oe_coeff_mat.gctx--Normalized gene differential expression profile, perturbed by certain gene over-expression. This is needed to simulate the normalized gene differential expression profile in the condition of HCAR1 inhibition.
@@ -12,4 +19,5 @@ Below we list out the preparation needed for code running
 	(4) pandas -- used to process meta information of small-molecules.
 
 3. input files to prepare:
-	(1) list of gene set, which consititute the gene co-effect network module, inside which HCAR1 perform a center-hub role. These genes are generated from STRING database (https://cn.string-db.org/)
+	(1) list of gene set, which consititute the gene co-effect network module, inside which HCAR1 perform a center-hub role. 
+		For my case, these genes are generated from STRING database (https://cn.string-db.org/). I've uploaded the gene set as "HCAR1_centered_gene_set.list".
