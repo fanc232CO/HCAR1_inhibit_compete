@@ -3,7 +3,7 @@ This pipline is for the "2025上海国际计算生物学创新大赛" (https://w
 
 My design is a virtual screening of small molecules based on the "bio-profile" (differential expression of one gene set) similarity, between the profile perturbed by HCAR1 inhibtion, and that perturbed by small-molecule compounds.
 
-
+https://github.com/fanc232CO/HCAR1_inhibit_compete/blob/main/github%E7%94%A8%E5%8E%9F%E7%90%86%E5%9B%BE.jpeg
 
 Below we've listed out the preparation needed for code running
 1. database to download:
