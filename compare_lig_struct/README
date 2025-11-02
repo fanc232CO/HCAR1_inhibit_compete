@@ -1,0 +1,2 @@
+Step 1. Build a conda environment for RDKit running, named "RDKit_env"
+Step 2. Switch to the "RDKit_env" and then run the script of "compare_lig.sh"
