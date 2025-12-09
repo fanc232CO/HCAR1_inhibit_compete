@@ -1,5 +1,7 @@
 Step 1. Build a conda environment for RDKit running, named "RDKit_env"
-Step 2. Check the script of "compare_lig.sh", change the "fn_LINCS_math" to your path of "LINCS_small_molecules.tsv", 
+Step 2. check the script named "preproc.sh", Line 2, change the "fn_meta" to your path of "LINCS_small_molecules.tsv", 
+        then run it, to get the file of "active_small_molecules.smi" as the input of script "compare_FPT.py".
+Step 3. Check the script of "compare_lig.sh", change the "fn_LINCS_math" to your path of "LINCS_small_molecules.tsv", 
         and change the "dir_query" to your path of "Computational_Compound_Library".
-Step 3. Check the script of "compare_FPT.py", Line 17, change the "dir_query" to your path of "Computational_Compound_Library".
-Step 4. Switch to the "RDKit_env" and then run the script of "compare_lig.sh"
+Step 4. Check the script of "compare_FPT.py", Line 17, change the "dir_query" to your path of "Computational_Compound_Library".
+Step 5. Switch to the "RDKit_env" and then run the script of "compare_lig.sh"
